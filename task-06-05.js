@@ -1,0 +1,1 @@
+const getUserWithEmail = (array, mail) => array.find(({email}) => (array, mail === email));
