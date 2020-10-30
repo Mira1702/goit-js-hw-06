@@ -1,1 +1,1 @@
-const getUsersWithFriend = (array, friendName) => array.filter(({friends}) => (array, friends === friendName)).includes(friendName).map(({name}) => {name});
+const getUsersWithFriend = (array, friendName) => array.filter(({friends}) => friends.includes(friendName)).map(({name}) => name);
